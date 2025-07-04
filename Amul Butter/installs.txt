@@ -1,0 +1,21 @@
+🔸 Tesseract:
+Install it to: C:\Program Files\Tesseract-OCR\
+
+🔸 Add to PATH:
+Open Start Menu → search "Environment Variables"
+
+Click on "Edit the system environment variables"
+
+Click "Environment Variables"
+
+Under "System Variables", find Path → Edit → Add:
+
+🔸 pip cmd:
+pip install pytesseract opencv-python pillow
+
+🔸 Manual hook:
+import pytesseract
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+
+🔸 Numpy: 
+pip install numpy
